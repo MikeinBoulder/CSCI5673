@@ -14,6 +14,10 @@ app = Flask(__name__)
 def create_seller_form():
     return render_template('create_seller_account_form.html')
 
+@app.route('/Create_Seller_Account/')
+def create_seller_form():
+    return render_template('create_seller_account_form.html')
+
 @app.route('/Seller_Account_Data/', methods = ['POST', 'GET'])
 def create_seller_data():
 
