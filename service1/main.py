@@ -10,9 +10,9 @@ import HW2_pb2_grpc
 
 app = Flask(__name__)
 
-@app.route('/Create_Seller_Account/')
-def create_seller_form():
-    return render_template('create_seller_account_form.html')
+@app.route('/')
+def return_baseline():
+    return 'simple message return from baseline'
 
 @app.route('/Create_Seller_Account/')
 def create_seller_form():
