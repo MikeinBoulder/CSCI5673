@@ -70,4 +70,4 @@ def logout_seller_data():
 
 channel = grpc.insecure_channel('localhost:50051')
 stub = HW2_pb2_grpc.Homework2Stub(channel)
-app.run(host='localhost', port=8080)
+app.run(host='0.0.0.0', port=8080)
