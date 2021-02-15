@@ -1,2 +1,2 @@
-While True:
+while True:
   x = 1
